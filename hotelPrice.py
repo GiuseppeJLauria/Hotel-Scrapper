@@ -17,7 +17,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 load_dotenv()
 
 # === CONFIGURATION ===
-HOTEL_URL = "https://uk.trip.com/hotels/detail/?cityId=1187&hotelId=2197662&checkIn=2025-04-28&checkOut=2025-04-29&adult=2&children=0"
+HOTEL_URL = "https://uk.trip.com/hotels/detail/?cityId=1187&hotelId=2197664&checkIn=2025-04-28&checkOut=2025-04-29&adult=2&children=0&subStamp=684&crn=1&ages=&travelpurpose=0&curr=GBP"
 EMAIL_SENDER = os.getenv("EMAIL_SENDER")
 EMAIL_PASSWORD = os.getenv("EMAIL_PASSWORD")
 APP_PASSWORD = os.getenv("APP_PASSWORD")  # Use the App Password
